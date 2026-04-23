@@ -1,4 +1,4 @@
 @echo off
 echo Starting VisionScan...
-python -m uv run main.py
+.venv\Scripts\python.exe main.py
 pause
