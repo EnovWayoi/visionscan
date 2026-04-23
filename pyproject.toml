@@ -1,0 +1,18 @@
+[project]
+name = "visionscan"
+version = "0.1.0"
+description = "VisionScan — Real-Time Object Detector using YOLOv11 and PyQt6"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ultralytics>=8.3.0",
+    "onnxruntime-gpu>=1.19.0",
+    "onnx>=1.16.0",
+    "onnxslim>=0.1.0",
+    "opencv-python>=4.10.0",
+    "PyQt6>=6.7.0",
+    "pyinstaller>=6.20.0",
+]
+
+[tool.uv]
+managed = true
